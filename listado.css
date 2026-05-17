@@ -1,0 +1,164 @@
+/* PAGINA */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    background: linear-gradient(
+        to bottom,
+        #000000,
+        #081220,
+        #0d1b2a,
+        #102840,
+        #081220,
+        #000000
+    );
+
+    background-attachment: fixed;
+}
+
+/* MENU */
+header{
+    background: rgba(0,0,0,0.7);
+
+    padding: 20px;
+
+    position: sticky;
+    top: 0;
+
+    border-bottom: 2px solid #00aaff;
+
+    backdrop-filter: blur(5px);
+}
+
+/* NAVEGACION */
+nav{
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+}
+
+nav a{
+    color: white;
+
+    text-decoration: none;
+
+    padding: 10px 18px;
+
+    border: 1px solid #00aaff;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+nav a:hover{
+    background: #00aaff;
+
+    transform: scale(1.05);
+}
+
+/* TITULOS */
+h1{
+    text-align: center;
+
+    margin-top: 50px;
+
+    font-size: 50px;
+
+    color: white;
+}
+
+h4{
+    text-align: center;
+
+    color: #4dc3ff;
+
+    margin-bottom: 40px;
+
+    font-size: 25px;
+}
+
+/* LISTA */
+ul{
+    list-style: none;
+
+    width: 450px;
+
+    margin: auto;
+
+    padding: 0;
+}
+
+/* ITEMS */
+ul li{
+    margin-bottom: 20px;
+}
+
+/* LINKS DE PROYECTOS */
+ul li a{
+    display: block;
+
+    text-decoration: none;
+
+    color: white;
+
+    background: rgba(255,255,255,0.05);
+
+    padding: 20px;
+
+    border-left: 5px solid #00aaff;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+
+    font-size: 18px;
+
+    backdrop-filter: blur(5px);
+}
+
+/* EFECTO HOVER */
+ul li a:hover{
+    background: #00aaff;
+
+    transform: translateX(10px);
+
+    box-shadow: 0 0 20px #00aaff;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+
+    margin-top: 60px;
+
+    padding: 20px;
+
+    background: rgba(0,0,0,0.7);
+
+    border-top: 2px solid #00aaff;
+}
+p{
+     display: block;
+
+    text-decoration: none;
+
+    color: white;
+
+    background: rgba(255,255,255,0.05);
+
+    padding: 20px;
+
+    border-left: 5px solid #00aaff;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+
+    font-size: 18px;
+
+    backdrop-filter: blur(5px);
+}
